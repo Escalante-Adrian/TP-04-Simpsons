@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background: #dfdfdf;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.foto {
+  border: 1px solid black;
+  padding: 10px;
+  background: white;
+}
+
+.foto img {
+  width: 80px;
+  height: 80px;
+}
+
+.nombre {
+  border: 1px solid #999;
+  padding: 10px;
+  background: white;
+}
+
+
