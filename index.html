@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simpsons</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de los Simpsons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="titulo-container">
+    <h1>Juego de los Simpsons</h1>
+  </div>
 
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <div class="contenedor">
+    <div id="personajes" class="columna"></div>
+    <div id="frases" class="columna"></div>
+  </div>
 
-    <script type="text/babel" src="app.jsx"></script>
-  </body>
+  <div style="text-align: center; margin-top: 20px;">
+    <button id="verificar">Verificar</button>
+  </div>
+
+  <div id="resultado-container">
+    <h2 id="resultado"></h2>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
 </html>
+
+
